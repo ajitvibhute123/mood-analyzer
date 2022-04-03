@@ -7,10 +7,20 @@
  *
  */
 
+/**
+ * create a class name as MoodAnalyserMain
+ */
 public class MoodAnalyserMain {
-
-	public static void main(String[] args) {
-		System.out.println("Welcome to mood analyzer program");
+	/**
+	 * create a constructor ,this is default constructor name as MoodAnalyserMain
+	 */
+	public MoodAnalyserMain() {
 	}
 
+	public String analyseMood(String message) {
+		if (message.contains("Sad"))
+			return "SAD";
+		else
+			return "HAPPY";
+	}
 }
