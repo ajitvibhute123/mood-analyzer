@@ -10,19 +10,15 @@
 /**
  * create a class name as MoodAnalyserMain
  */
-public class MoodAnalyserMain  {
-    private String message;
+public class MoodAnalyserMain {
     /**
      * create a constructor ,this is default constructor name as MoodAnalyserMain
      */
     public MoodAnalyserMain() {
     }
 
-    public MoodAnalyserMain(String message) {
-        this.message=message;
-    }
-    public String analyseMood() {
-        if (this.message.contains("Sad"))
+    public String analyseMood(String message) {
+        if (message.contains("Sad"))
             return "SAD";
         else
             return "HAPPY";
