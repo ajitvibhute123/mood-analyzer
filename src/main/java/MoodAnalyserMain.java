@@ -10,7 +10,7 @@
 /**
  * create a class name as MoodAnalyserMain
  */
-public class MoodAnalyserMain {
+public class MoodAnalyserMain  {
     private String message;
     /**
      * create a constructor ,this is default constructor name as MoodAnalyserMain
